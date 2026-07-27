@@ -105,3 +105,18 @@ body{
     padding:20px;
     border-radius:12px;
 }
+<section class="sponsors">
+
+    <h2>Nos Sponsors</h2>
+
+    <div class="sponsors-container">
+
+        <div class="gold">Sponsor Or</div>
+
+        <div class="silver">Sponsor Argent</div>
+
+        <div class="bronze">Sponsor Bronze</div>
+
+    </div>
+
+</section>
