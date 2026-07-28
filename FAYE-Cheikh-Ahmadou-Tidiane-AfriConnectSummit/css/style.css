@@ -148,3 +148,30 @@ td{
     grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
     gap:2rem;
 }
+.filters{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+    margin:40px 0;
+}
+
+.filter-btn{
+    padding:12px 24px;
+    cursor:pointer;
+}
+
+.speakers-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:2rem;
+}
+
+.speaker-card{
+    text-align:center;
+}
+
+.speaker-card img{
+    width:100%;
+    border-radius:12px;
+}
