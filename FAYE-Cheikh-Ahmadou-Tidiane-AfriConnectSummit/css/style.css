@@ -203,3 +203,37 @@ iframe{
     height:400px;
     border:none;
 }
+:root{
+    --primary:#0F766E;
+    --secondary:#14B8A6;
+    --accent:#F59E0B;
+    --dark:#0F172A;
+    --light:#F8FAFC;
+    --gray:#64748B;
+    --radius:12px;
+    --transition:.3s ease;
+    --title-font:"Poppins",sans-serif;
+    --body-font:"Inter",sans-serif;
+}
+button,
+a,
+.speaker-card,
+.stat-card,
+.why-card{
+    transition:var(--transition);
+}
+@media(max-width:768px){
+    ...
+}
+
+@media(max-width:375px){
+    ...
+}
+
+@media(min-width:1200px){
+    ...
+}
+[data-theme="dark"]{
+    --light:#0F172A;
+    --dark:#F8FAFC;
+}
